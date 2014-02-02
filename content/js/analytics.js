@@ -60,48 +60,6 @@ joolaio.init({host: 'http://localhost:8080', APIToken:'1234'}, function (err) {
       ]
     }
   );
-  /*
-   setupSparkline('moves', 'Mouse Moves', {
-   timeframe: 'last_hour',
-   interval: 'minute',
-   dimensions: ['timestamp'],
-   metrics: ['moves']
-   }
-   );
-   setupSparkline('clicks', 'Clicks', {
-   timeframe: 'last_hour',
-   interval: 'minute',
-   dimensions: ['timestamp'],
-   metrics: ['clicks']
-   }
-   );
-   setupSparkline('visits', 'Visitors', {
-   timeframe: 'last_hour',
-   interval: 'minute',
-   dimensions: ['timestamp'],
-   metrics: [
-   {id: 'visitors', name: 'visitors', dependsOn: 'userid', aggregation: 'ucount',
-   type: 'int'}
-   ]
-   }
-   );
-   setupSparkline('loadtime', 'Avg. Page Load Time', {
-   timeframe: 'last_hour',
-   interval: 'minute',
-   dimensions: ['timestamp'],
-   metrics: [
-   {id: 'avgloadtime', name: 'avgloadtime', dependsOn: 'loadtime', aggregation: 'avg', suffix: 'ms',
-   type: 'float', decimals: 4}
-   ]
-   }
-   );
-   setupPie('loadtime_browser', 'Load Time by Browser', {
-   timeframe: 'last_hour',
-   dimensions: ['browser'],
-   metrics: ['moves']
-   }
-   );
-   */
 });
 
 function setupSparkline(divname, caption, query) {

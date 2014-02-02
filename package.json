@@ -2,7 +2,7 @@
   "name": "joola.io.express",
   "version": "0.0.1",
   "dependencies": {
-    "joola.io.sdk": "http://github.com/joola/joola.io.sdk/tarball/feature/3.4",
+    "joola.io.sdk": "http://github.com/joola/joola.io.sdk/tarball/develop",
     "useragent": "~2.0.7"
   }
 }
