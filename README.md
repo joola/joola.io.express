@@ -3,7 +3,7 @@
 
 Instant, real-time, back-end performance analytics for your [Express.js][express] app.
 
-<img src="http://i.imgur.com/t5WJcuh.png"></img>
+<img src="http://i.imgur.com/pTbM4qK.jpg"></img>
 
 **joola.io.express** is a small middleware you can seamlessly plug into your [expressjs][express] app to log 
 performance data on your app and later query it using expressive queries and visualizations. 
@@ -24,7 +24,7 @@ $ npm install joola.io.express
 2. In your app.js add: ```app.use(require('joola.io.express')({APIToken:'TOKEN'});```
 3. Run your node app and navigate to: ```http://yourwebserver/analytics```
 
-## Getting Read/Write KeyS
+## Getting Read/Write Keys
 Before you can start writing and reading data securely, you will need to obtain read/write keys from [reflect.io](http://reflect.io).
 
 If you wish to avoid registration, you can download and install your copy of [[joola.io]].
