@@ -2,7 +2,7 @@
   "name": "joola.io.express",
   "description":"Instant Expressjs Analytics",
   "author": "Joola <info@joo.la>",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "engine": "node >= 0.10.x",
   "private": false,
   "repository": {

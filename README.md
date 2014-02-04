@@ -8,7 +8,7 @@ Instant, real-time, back-end performance analytics for your [Express.js][express
 **joola.io.express** is a small middleware you can seamlessly plug into your [expressjs][express] app to log 
 performance data on your app and later query it using expressive queries and visualizations. 
 **joola.io.express** is based on the [**joola.io**][joola.io] framework and uses [**reflect.io**]
-[http://reflect.io] as a free store for your website performance data. 
+[reflect.io] as a free store for your website performance data. 
 This means that data is securely stored, backed up and managed by reflect.io and its team.
  
 If you prefer you can install your own copy of [joola.io] and save data on your premises.
