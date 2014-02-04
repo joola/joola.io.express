@@ -124,6 +124,9 @@ html(lang='en')
     script(type='text/javascript' src='https://www.google.com/jsapi')
 
     script.
+      var readKey = #{readKey};
+    
+    script.
       google.load('visualization', '1', {'packages': ['geochart']});
 
     script(src='/express.analytics.js')

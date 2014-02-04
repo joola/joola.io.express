@@ -19,7 +19,7 @@ $(function () {
 });
 
 
-joolaio.init({host: 'http://10.0.0.3:8080', APIToken: '1234'}, function (err) {
+joolaio.init({host: 'http://reflect.io:8080', APIToken: readKey}, function (err) {
   if (err)
     throw err;
 

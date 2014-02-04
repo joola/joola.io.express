@@ -1,6 +1,7 @@
 {
   "name": "joola.io.express",
-  "version": "0.0.1",
+  "description":"Instant Expressjs Analytics",
+  "version": "0.0.2",
   "dependencies": {
     "joola.io.sdk": "http://github.com/joola/joola.io.sdk/tarball/develop",
     "useragent": "~2.0.7",
