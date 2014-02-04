@@ -1,10 +1,30 @@
 {
   "name": "joola.io.express",
   "description":"Instant Expressjs Analytics",
-  "version": "0.0.5",
+  "author": "Joola <info@joo.la>",
+  "version": "0.0.6",
+  "engine": "node >= 0.10.x",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joola/joola.io.express.git"
+  },
+  "bugs": "https://github.com/joola/joola.io.express/issues",
+  "contributors": [
+    {
+      "name": "Itay Weinberger",
+      "email": "itay@joo.la",
+      "url": "http://joo.la"
+    },
+    {
+      "name": "Or Weinberger",
+      "email": "or@joo.la",
+      "url": "http://joo.la"
+    }
+  ],
   "dependencies": {
     "joola.io.sdk": "http://github.com/joola/joola.io.sdk/tarball/develop",
-    "useragent": "~2.0.7",
     "ua-parser-js": "~0.6.2"
-  }
+  },
+  "license": "MIT"
 }
