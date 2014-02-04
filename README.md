@@ -8,7 +8,7 @@ Instant, real-time, back-end performance analytics for your [Express.js][express
 **joola.io.express** is a small middleware you can seamlessly plug into your [expressjs][express] app to log 
 performance data on your app and later query it using expressive queries and visualizations. 
 **joola.io.express** is based on the [**joola.io**][joola.io] framework and uses [**reflect.io**]
-(http://reflect.io) as a free store for your website performance data. 
+[http://reflect.io] as a free store for your website performance data. 
 This means that data is securely stored, backed up and managed by reflect.io and its team.
  
 If you prefer you can install your own copy of [joola.io] and save data on your premises.
@@ -33,7 +33,7 @@ app.use(require('joola.io.express')({
 3. Run your node app and navigate to: ```http://yourwebserver/analytics```
 
 ## Getting Read/Write Keys
-Before you can start writing and reading data securely, you will need to obtain read/write keys from [reflect.io](http://reflect.io/express).
+Before you can start writing and reading data securely, you will need to obtain read/write keys from [reflect.io][reflect.io-express].
 
 If you wish to avoid registration, you can download and install your copy of [joola.io].
 
@@ -53,7 +53,7 @@ Contacting us is easy, ping us on one of these:
 
 - [@joolaio][19]
 - [info@joo.la][20]
-- #joola.io on irc.freenode.net
+- \#joola.io on irc.freenode.net
 - You can even fill out a [form][21].
 
 ## License
@@ -73,3 +73,6 @@ Copyright (c) 2012-2013 Joola Smart Solutions. MIT Licensed, see [LICENSE][24] f
 [express]: http://expressjs.com
 [joola.io]: http://github.com/joola/joola.io
 [joola.io.wiki]: http://github.com/joola/joola.io/wiki
+
+[reflect.io]: http://reflect.io
+[reflect.io-express]: http://reflect.io/express
