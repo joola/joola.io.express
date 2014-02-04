@@ -11,7 +11,7 @@ module.exports = function (options) {
     readKey: null,
     writeKey: null,
     endPoint: '/analytics',
-    host: 'http://localhost:8080',
+    host: 'http://reflect.io:8080',
     engine: {
       debug: {
         enabled: false,

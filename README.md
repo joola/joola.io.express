@@ -11,7 +11,7 @@ performance data on your app and later query it using expressive queries and vis
 (http://reflect.io) as a free store for your website performance data. 
 This means that data is securely stored, backed up and managed by reflect.io and its team.
  
-If you prefer you can install your own copy of [[joola.io]] and save data on your premises.
+If you prefer you can install your own copy of [joola.io] and save data on your premises.
 
 ## Install
 ```bash
@@ -21,13 +21,21 @@ $ npm install joola.io.express
 ## Basic Usage
 
 1. ```npm install joola.io.express```
-2. In your app.js add: ```app.use(require('joola.io.express')({APIToken:'TOKEN'});```
+2. In your app.js add: 
+```
+app.use(require('joola.io.express')({
+    readKey: 'READKEY',
+    writeKey: 'WRITEKEY',
+    host: 'http://reflect.io:8080'
+  }
+));
+```
 3. Run your node app and navigate to: ```http://yourwebserver/analytics```
 
 ## Getting Read/Write Keys
-Before you can start writing and reading data securely, you will need to obtain read/write keys from [reflect.io](http://reflect.io).
+Before you can start writing and reading data securely, you will need to obtain read/write keys from [reflect.io](http://reflect.io/express).
 
-If you wish to avoid registration, you can download and install your copy of [[joola.io]].
+If you wish to avoid registration, you can download and install your copy of [joola.io].
 
 ## Experimental
 **This is an Experimental package**  
